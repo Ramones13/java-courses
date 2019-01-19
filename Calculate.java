@@ -10,8 +10,9 @@ public class Calculate {
 		int value2 = Integer.valueOf(args[1]);
 
 		int summ = value1 + value2;
-
+		double poww = Math.pow(value1, value2);
 		System.out.println("Sum = " + summ);
+		System.out.println("Pow = " + poww);
 
 	}
 }
